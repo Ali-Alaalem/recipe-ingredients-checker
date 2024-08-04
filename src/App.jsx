@@ -13,7 +13,7 @@ const App = () => {
       <h1>ingredients needed for a recipe List</h1>
       <ul>
         {items.map((item, index) => (
-          <li key={index} className={item.available ? 'available' : 'not-available`'}>
+          <li key={index} className={item.available ? 'available' : 'not-available'}>
             {item.name}
           </li>
         ))}
